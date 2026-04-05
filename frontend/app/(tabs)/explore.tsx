@@ -239,17 +239,21 @@ const styles = StyleSheet.create({
   // Category Pills
   categoryScroll: {
     marginTop: 16,
+    maxHeight: 50,
+    minHeight: 50,
   },
   categoryContent: {
     paddingHorizontal: 16,
-    gap: 8,
+    alignItems: 'center',
   },
   categoryPill: {
     paddingHorizontal: 16,
-    paddingVertical: 8,
+    paddingVertical: 10,
     borderRadius: 20,
     backgroundColor: COLORS.backgroundAlt,
     marginRight: 8,
+    height: 40,
+    justifyContent: 'center',
   },
   categoryPillActive: {
     backgroundColor: COLORS.primary,
